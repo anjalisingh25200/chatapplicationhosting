@@ -15,7 +15,7 @@ http.listen(PORT, () => {
 app.use(express.static(__dirname + '/public'))
 
 
-const botname = 'whatapp bot'
+const botname = 'Admin'
 
 //Socket
 const io = require('socket.io')(http)
